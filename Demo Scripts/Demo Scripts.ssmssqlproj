@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Demo Scripts">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="192.168.150.131:andy_local">
+          <Created>2025-10-27T19:39:46.8554915-04:00</Created>
+          <Type>SQL</Type>
+          <Server>192.168.150.131</Server>
+          <UserName>andy_local</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <TrustServerCertificate>True</TrustServerCertificate>
+          <EncryptionOption>True</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="0 - Reset.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.150.131:False:andy_local</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.150.131</AssociatedConnSrvName>
+          <AssociatedConnUserName>andy_local</AssociatedConnUserName>
+          <FullPath>0 - Reset.sql</FullPath>
+        </FileNode>
+        <FileNode Name="1 - Introduce Data Virtualization Setup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.150.131:False:andy_local</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.150.131</AssociatedConnSrvName>
+          <AssociatedConnUserName>andy_local</AssociatedConnUserName>
+          <FullPath>1 - Introduce Data Virtualization Setup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2 - First External Tables.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.150.131:False:andy_local</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.150.131</AssociatedConnSrvName>
+          <AssociatedConnUserName>andy_local</AssociatedConnUserName>
+          <FullPath>2 - First External Tables.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3 - Partitioned Views with Parquet.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.150.131:False:andy_local</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.150.131</AssociatedConnSrvName>
+          <AssociatedConnUserName>andy_local</AssociatedConnUserName>
+          <FullPath>3 - Partitioned Views with Parquet.sql</FullPath>
+        </FileNode>
+        <FileNode Name="9 - Space Used Comparisons.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.150.131:False:andy_local</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.150.131</AssociatedConnSrvName>
+          <AssociatedConnUserName>andy_local</AssociatedConnUserName>
+          <FullPath>9 - Space Used Comparisons.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
